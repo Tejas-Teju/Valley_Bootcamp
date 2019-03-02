@@ -1,5 +1,6 @@
-n = 3
-if n%2 == 0:
-	print("The number is even")
+a = int(input("Enter a number: "))
+
+if a%2 == 0:
+	print( f" {a} is even")
 else:
-	print("The number is odd")
+	print(f" {a} is odd")
